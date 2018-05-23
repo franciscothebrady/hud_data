@@ -1,0 +1,1700 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- P2 -->
+
+<title>Quarterly Census of Employment and Wages -- Data Files</title>
+<!-- ****************************************** Begin META TAGS ********************************************* -->
+	<!-- START include/global/head.stm -->
+	<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOL&subagency=BLS&yt=true"></script>
+	<script type="text/javascript" src="/javascripts/jquery-min.js"></script>
+	<script type="text/javascript" src="/javascripts/bls.js"></script>
+	<script>
+(function (g) {
+var d = document, am = d.createElement('script'), h = d.head || d.getElementsByTagName("head")[0], fsr = 'fsReady',
+aex = {
+  "src": "//gateway.foresee.com/sites/bls.gov/production/gateway.min.js",
+  "type": "text/javascript",
+  "async": "true",
+  "data-vendor": "fs",
+  "data-role": "gateway"
+};
+for (var attr in aex){am.setAttribute(attr, aex[attr]);}h.appendChild(am);g[fsr] = function () {var aT = '__' + fsr + '_stk__';g[aT] = g[aT] || [];g[aT].push(arguments);};
+})(window);
+</script>
+
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_combined.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_content.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_tables.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/jquery-tools.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_nr.css">
+    <!--[if lt IE 9]>
+		<link href="/stylesheets/ie8-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+	<![endif]-->
+	<!--[if lt IE 8]>
+		<link href="/stylesheets/ie7-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+	<![endif]-->
+	<!--[if lt IE 7]>
+		<link href="/stylesheets/ie6-styles.css" media="all" rel="Stylesheet" type="text/css"> 
+		<style type="text/css">
+		body {
+			behavior:url(/stylesheets/csshover2.htc);
+		}
+		</style>			
+	<![endif]-->
+	<!--[if IE]>
+		<style type="text/css">
+		body {
+			font-size: expression(1 / (screen.deviceXDPI / 96) * 84 + '%');
+		}
+		</style>	
+	<![endif]-->
+	<noscript>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bls_noscript.css">
+	</noscript>
+	<meta http-equiv="x-ua-compatible" content="IE=Edge" />
+    <meta property="og:image" content="https://www.bls.gov/images/bls_emblem.png" />
+		<style type="text/css">
+			td.gsc-table-cell-thumbnail{
+			display:none !important;
+			}
+		</style>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+	<link rel="manifest" href="/manifest.json" />
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="theme-color" content="#ffffff" />
+    <!-- END include/global/head.stm -->
+	<meta http-equiv="Content-Script-Type" content="type" />
+	<meta name="agency" content="BLS" />
+	<meta name="audience" content="general" />
+<meta name="subagency" content="BLS: Employment and Unemployment">
+<meta name="program" content="BLS: Employment and Unemployment: Covered Employment and Wages">
+<meta name="subject" content="Statistics: By geographical coverage: National, Statistics: By geographical coverage: State, Statistics: By geographical coverage: Sub-state (County/MSA/City), Statistics: By Industries, Statistics: Employment and Unemployment">
+<meta name="date" content="12/13/2017">
+<!-- ****************************************** End META TAGS *********************************************** -->
+</head>
+<body>
+<!-- ****************************************** Begin HEADER ************************************************ -->
+<!--no_index_start-->
+<!-- DOL BANNER BEGIN -->
+<!-- DOL BANNER START -->
+		<a class="skiplink" href="#startcontent">Skip to Content</a>
+		<div id="dol-bar">
+			<div id="dol-bar-content">
+				<div id="dol-bar-emblem">
+					<h3><a href="http://www.dol.gov/">US Department of Labor</a></h3>
+				</div>
+				<form id="dol-bar-form" name="subsform" action="https://subscriptions.bls.gov/accounts/USDOLBLS/subscriber/qualify" method="get">
+				<div id="dol-bar-right">
+					<a href="/bls/topicsaz.htm">A to Z Index</a> &nbsp;|&nbsp;
+					<a href="/bls/faqs.htm">FAQs</a> &nbsp;|&nbsp;
+					<a href="/bls/infohome.htm">About BLS</a> &nbsp;|&nbsp;
+					<a href="/bls/contact.htm">Contact Us</a> &nbsp; &nbsp;
+					<label for="dol-bar-email" style="display: none;">E-mail:</label>
+					<input id="dol-bar-email" name="email" type="text" onclick="this.value=''; this.onclick = null;" value="Subscribe to E-mail Updates" title="Enter your email address to subscribe to updates" size="32">
+					<input id="dol-bar-subscribe" type="image" src="/images/buttons/subscribe_button_red_on_red.png"  alt="Submit">
+				</div>
+				</form>
+				<div class="clearfloat"></div>
+			</div>
+		</div>
+<!-- DOL BANNER END -->
+
+<!-- DOL BANNER END -->
+<!-- BLS BANNER BEGIN -->
+<!-- BLS BANNER START -->
+<div id="top"></div>
+<div id="bls-banner-wrapper">
+  <div id="bls-banner">
+    <div id="bls-banner-emblem">
+      <h2><a href="/home.htm">U.S. Bureau of Labor Statistics</a></h2>
+    </div>
+    <div id="bls-banner-right">
+      <div id="bls-banner-links"><span class="social-follow"><a title="Follow BLS on Twitter" target="_blank" href="http://twitter.com/BLS_gov">Follow Us</a> </span><span class="social-follow-links"> 
+        <!-- <img src="/images/icons/facebook.png"/>--> 
+        <a target="_blank" href="http://twitter.com/BLS_gov"><img alt="Follow BLS on Twitter" src="/images/icons/twitter_bird_icon_white.png"/></a> 
+        <!--<img src="/images/icons/linkedin.png"/>--> 
+        </span> | <a href="/newsroom/" class="first">What's New</a> | <a href="/schedule/news_release/">Release Calendar</a> | <a href="https://blogs.bls.gov/blog/">Blog</a></div>
+      <div id="bls-banner-search">
+        <form method="get" action="/search/query">
+          <input name="query" type="text" id="bls-banner-search-input" value="Search BLS.gov" title="Search Input" onclick="this.value=''; this.onclick = null;">
+          <input type="image" src="/images/buttons/search_button_red_on_red.png" name="term" id="bls-banner-search-submit" alt="Search" title="Submit">
+        </form>
+      </div>
+    </div>
+    <div class="clearfloat"></div>
+  </div>
+</div>
+<!-- BLS BANNER END --> 
+
+
+<!-- BLS BANNER END -->
+<!-- MAIN NAV BEGIN -->
+<div id="main-nav-wrapper">
+	<div id="main-nav-container">
+		<div>
+						<ul id="main-nav" class="nojs">
+				<li class="submenu-home"><a href="/home.htm" style="padding-left: 1em;">Home</a>
+<!-- ********************************************** Begin Home Tab LIST ****************************************** -->
+<!-- 1st column -->
+
+<div class="sub" id="submenu-home">
+  <ul>
+    <li>
+      <h5><a href="#">Subject Areas&#187;</a></h5>
+    </li>
+    <li><a href="/bls/inflation.htm">Inflation &amp; Prices</a></li>
+    <li><a href="/bls/spending.htm">Spending &amp; Time Use</a></li>
+    <li><a href="/bls/unemployment.htm">Unemployment</a></li>
+    <li><a href="/bls/employment.htm">Employment</a></li>
+    <li><a href="/bls/wages.htm">Pay &amp; Benefits</a></li>
+    <li><a href="/bls/productivity.htm">Productivity</a></li>
+    <li><a href="/iif/">Workplace Injuries</a></li>
+    <li><a href="/bls/international.htm">International</a></li>
+    <li><a href="/bls/demographics.htm">Demographics</a></li>
+    <li><a href="/bls/industry.htm">Industries</a></li>
+    <li><a href="/bls/business.htm">Business Costs</a></li>
+    <li><a href="/bls/occupation.htm">Occupations</a></li>
+    <li><a href="/bls/geography.htm">Geography</a></li>
+  </ul>
+  
+  <!-- 2nd column -->
+  
+  <ul>
+    <li>
+      <h5><a href="#">Resources For &#187;</a></h5>
+    </li>
+    <li><a href="/audience/business.htm">Business Leaders</a></li>
+    <li><a href="/audience/consumers.htm">Consumers</a></li>
+    <li><a href="/developers/home.htm">Developers</a></li>
+    <li><a href="/audience/economists.htm">Economists</a></li>
+    <li><a href="/audience/investors.htm">Investors</a></li>
+    <li><a href="/audience/jobseekers.htm">Jobseekers</a></li>
+    <li><a href="/newsroom/home.htm">Media</a></li>
+    <li><a href="/audience/policy.htm">Public Policymakers</a></li>
+    <li><a href="/audience/students.htm">Students &amp; Teachers</a></li>
+    <li><a href="/respondents/home.htm">Survey Respondents</a></li>
+    <li>&nbsp;</li>
+    <li>
+      <h5><a href="#">At a Glance Tables &#187;</a></h5>
+    </li>
+    <li><a href="/eag/eag.us.htm">U.S. Economy</a></li>
+    <li><a href="/eag/">Regions, States, &amp; Areas</a></li>
+    <li><a href="/iag/home.htm">Industries</a></li>
+  </ul>
+  
+  <!-- 3rd column -->
+  
+  <ul>
+    <li>
+      <h5><a href="#">MORE &#187;</a></h5>
+    </li>
+    <li><a href="/video/">Videos</a></li>
+    <li><a href="/bls/announcement.htm">Announcements</a></li>
+    <li><a href="/bls/bls-speakers/bls-speakers.htm">BLS Speakers Available</a></li>
+    <li><a href="https://blogs.bls.gov/blog/">Commissioner's Corner</a></li>
+    <li><a href="/bls/research.htm">Research</a></li>
+    <li><a href="/spotlight/">Spotlight on Statistics</a></li>
+    <li><a href="/k12/">Students' Pages</a></li>
+    <li><a href="/bls/erratabydate.htm">Errata</a></li>
+    <li><a href="/bls/other.htm">Other Statistical Sites</a></li>
+  </ul>
+</div>
+<!-- ***********************************************End Home Tab LIST ******************************************** --> 
+
+				</li>
+				
+                <li class="submenu selected"><a href="/bls/proghome.htm">Subjects</a>
+<!-- ************************************* Begin SUBJECTS TAB list ****************************************** -->
+<!-- 1st column -->
+
+<div class="sub" id="submenu-programs">
+  <ul>
+    <li>
+      <h5><a href="/bls/inflation.htm">Inflation &amp; Prices &#187;</a></h5>
+    </li>
+    <li><a href="/cpi/">Consumer Price Index</a></li>
+    <li><a href="/ppi/">Producer Price Indexes</a></li>
+    <li><a href="/mxp/">Import/Export Price Indexes</a></li>
+    <li><a href="/ncs/ect/">Employment Cost Index</a></li>
+    <li><a href="/bls/escalation.htm">Contract Escalation</a></li>
+    <li><a href="/pir/">Price Index Research</a></li>
+    <li><a href="/bls/inflation.htm">Inflation &amp; Prices Overview</a></li>
+    <li>&nbsp;</li>
+    <li>
+      <h5><a href="/bls/wages.htm">Pay &amp; Benefits &#187;</a></h5>
+    </li>
+    <li><a href="/ncs/ect/">Employment Costs</a></li>
+    <li><a href="/ncs/">National Compensation Data</a></li>
+    <li><a href="/bls/blswage.htm">Wages by Area &amp; Occupation</a></li>
+    <li><a href="/cps/earnings.htm#demographics">Earnings by Demographics</a></li>
+    <li><a href="/ces/">Earnings by Industry</a></li>
+    <li><a href="https://www.bls.gov/cew/">County Wages</a></li>
+    <li><a href="/ncs/ebs/">Benefits</a></li>
+    <li><a href="/crp/">Compensation Research</a></li>
+    <li><a href="/wsp/">Strikes &amp; Lockouts </a></li>
+    <li><a href="/bls/wages.htm">Pay &amp; Benefits Overview</a></li>
+    <li>&nbsp;</li>
+    <li>
+      <h5><a href="/bls/spending.htm">Spending &amp; Time Use &#187;</a></h5>
+    </li>
+    <li><a href="/cex/">Consumer Expenditures </a></li>
+    <li><a href="/tus/">How Americans Spend Time</a></li>
+  </ul>
+  <!-- 2nd column -->
+  <ul>
+    <li>
+      <h5><a href="/bls/unemployment.htm">Unemployment &#187;</a></h5>
+    </li>
+    <li><a href="/cps/">National Unemployment Rate </a> </li>
+    <li><a href="/lau/">State &amp; Local Unemployment Rates </a> </li>
+
+    <li><a href="/ers/">Unemployment Research</a></li>
+    <li><a href="/bls/unemployment.htm">Unemployment Overview</a></li>
+    <li>&nbsp;</li>
+    <li>
+      <h5><a href="/bls/employment.htm">Employment &#187;</a></h5>
+    </li>
+    <li><a href="/ces/">National Employment </a></li>
+    <li><a href="/sae/">State &amp; Local Employment </a></li>
+    <li><a href="https://www.bls.gov/cew/">State &amp; County Employment </a></li>
+    <li><a href="/cps/">Worker Characteristics </a></li>
+    <li><a href="/emp/">Employment Projections </a></li>
+    <li><a href="/jlt/">Job Openings &amp; Labor Turnover </a></li>
+    <li><a href="/oes/">Employment by Occupation </a></li>
+    <li><a href="/nls/">Work Experience Over Time </a></li>
+    <li><a href="/bdm/">Business Employment Dynamics </a></li>
+    <li><a href="/ers/">Employment Research</a></li>
+    <li><a href="/bls/employment.htm">Employment Overview</a></li>
+    <li>&nbsp;</li>
+    <li>
+      <h5><a href="/iif/">Workplace Injuries &#187;</a></h5>
+    </li>
+	    <li>&nbsp;</li>
+    <li>
+      <h5><a href="/ors/">Occupational Requirements &#187;</a></h5>
+    </li>
+  </ul>
+  
+  <!-- 3rd column -->
+  
+  <ul>
+    <li>
+      <h5><a href="/bls/productivity.htm">Productivity &#187;</a></h5>
+    </li>
+    <li><a href="/lpc/"> Labor Productivity &amp; Costs</a></li>
+    <li><a href="/mfp/">Multifactor Productivity</a></li>
+    <li><a href="/dpr/">Productivity Research</a></li>
+    <li><a href="/bls/productivity.htm">Productivity Overview</a></li>
+    <li>&nbsp;</li>
+    <li>
+      <h5><a href="/bls/international.htm">International &#187;</a></h5>
+    </li>
+   
+    <li><a href="/itc/">International Technical Cooperation</a></li>
+    <li><a href="/mxp/">Import/Export Price Indexes</a></li>
+    <li><a href="/bls/international.htm">International Overview</a></li>
+    <li>&nbsp;</li>
+    <li>
+      <h5><a href="/regions/home.htm">REGIONAL OFFICES &#187;</a></h5>
+    </li>
+    <li><a href="/regions/new-england/">New England (Boston)</a></li>
+    <li><a href="/regions/new-york-new-jersey/">New York-New Jersey (NY City)</a></li>
+    <li><a href="/regions/mid-atlantic/">Mid-Atlantic (Philadelphia)</a></li>
+    <li><a href="/regions/southeast/">Southeast (Atlanta)</a></li>
+    <li><a href="/regions/midwest/">Midwest (Chicago)</a></li>
+    <li><a href="/regions/southwest/">Southwest (Dallas)</a></li>
+    <li><a href="/regions/mountain-plains/">Mountain-Plains (Kansas City)</a></li>
+    <li><a href="/regions/west/">West (San Francisco)</a></li>
+    <li><a href="/regions/home.htm">Regional Overview</a></li>
+  </ul>
+</div>
+<!-- **************************************End SUBJECT AREAS ******************************************** --> 
+
+				</li>
+                
+                
+				<li class="submenu"><a href="/data/">Data Tools</a>
+<!-- ******************************************** Begin DATA TOOLS LIST ****************************************** -->
+
+<div class="sub" id="submenu-data">
+  <ul>
+    <li>
+      <h5><a href="/data/">Data Retrieval Tools &#187;</a></h5>
+    </li>
+    <li><a href="/cgi-bin/surveymost?bls">Top Picks</a></li>
+    <li><a href="/cgi-bin/srgate">Series Report</a></li>
+    <li><a href="/data/">One Screen</a></li>
+    <li><a href="/data/">Multi-Screen</a></li>
+    <li><a href="/data/#maps">Maps </a></li>
+    <li><a href="/data/#calculators">Calculators</a></li>
+    <li><a href="/data/#api">Public Data API</a></li>
+    <li>&nbsp;</li>
+  </ul>
+  
+  <!-- 2nd column -->
+  
+  <ul>
+    <li>
+      <h5><a href="#">CUSTOMIZED TABLES &#187;</a></h5>
+    </li>
+    <li><a href="https://download.bls.gov/pub/time.series/">Text Files</a></li>
+    <li><a href="/data/#historical-tables">News Release Tables</a></li>
+    <li>&nbsp;</li>
+    <li>
+      <h5><a href="/bls/moredata.htm">More Sources of Data &#187;</a></h5>
+    </li>
+    <li><a href="/rda/home.htm">Restricted Data Access</a></li>
+    <li><a href="/data/archived.htm">Discontinued Databases </a></li>
+    <li><a href="/help/hlpform1.htm">FAQs</a></li>
+    <li><a href="/help/notice.htm">Special Notices </a></li>
+    <li><a href="/bls/moredata.htm">More Sources of Data</a></li>
+  </ul>
+</div>
+<!-- *********************************************End DATABASES and TOOLS LIST ******************************************** --> 
+
+				</li>
+                
+                
+				<li class="submenu"><a href="/opub/">Publications</a>
+<!-- ********************************************** Begin PUBLICATIONS LIST ****************************************** -->
+
+<div class="sub" id="submenu-pubs">
+  <ul>
+    <li>
+      <h5><a href="/opub/#latest">Latest Publications &#187;</a></h5>
+    </li>
+    <li><a href="/opub/ted/">The Economics Daily</a></li>
+    <li><a href="/opub/mlr/">Monthly Labor Review</a></li>
+    <li><a href="/opub/btn/">Beyond the Numbers</a></li>
+    <li><a href="/spotlight/">Spotlight on Statistics</a></li>
+    <li><a href="/opub/reports">Reports &amp; Bulletins </a></li>
+    <li><a href="https://blogs.bls.gov/blog/">Commissioner's Corner</a></li>
+  </ul>
+  
+  <!-- 2nd column -->
+  
+  <ul>
+    <li>&nbsp;</li>
+    <li><a href="/video/">Videos</a></li>
+    <li><a href="/careeroutlook/">Career Outlook</a></li>
+    <li><a href="/ooh/">Occupational Outlook Handbook</a></li>
+    <li><a href="/opub/hom/">Handbook of Methods</a></li>
+    <!-- <li><a href="/nls/nlsnews.htm">National Longitudinal Surveys News</a></li>
+    <li><a href="/opub/#magazines">Magazines &amp; Journals </a></li>
+    <li><a href="/opub/#chartbooks">Chartbooks</a></li>
+    
+    <li><a href="/opub/#catalog">Catalog of Publications </a></li> -->
+    <li><a href="/osmr/osmr.htm">Research Papers </a></li>
+    <li><a href="/opub/#copyright">Copyright Information </a></li>
+    <li><a href="/opub/#contact">Contact &amp; Help </a></li>
+  </ul>
+</div>
+<!-- ***********************************************End PUBLICATIONS LIST ******************************************** --> 
+				</li>
+				
+                
+                <li class="submenu"><a href="/bls/newsrels.htm">Economic Releases</a>
+
+<!-- ********************************************** Begin ECONOMIC RELEASES LIST ****************************************** -->
+<!-- 1st column -->
+<div class="sub" id="submenu-news">
+   <ul>
+       <li><h5><a href="/bls/newsrels.htm#latest-releases">Latest Releases &#187;</a></h5></li>   
+       <li>&nbsp;</li>
+       <li><h5><a href="/bls/newsrels.htm#major">Major Economic Indicators &#187;</a></h5></li>   
+       <li>&nbsp;</li>
+       <li><h5><a href="/schedule/news_release/">Schedules for news Releases &#187;</a></h5></li>
+       <li><a href="/schedule/">By Month</a></li>
+       <li><a href="/schedule/schedule/by_prog/all_sched.htm">By News Release</a></li>
+       <li><a href="/schedule/news_release/current_year.asp">Current Year</a></li>
+       <li><a href="/bls/archived_sched.htm">Prior Years</a></li>
+	   <li>&nbsp;</li>         
+       <li><h5><a href="/bls/news-release/home.htm">Archived News Releases &#187;</a></h5></li>
+ </ul>	  	
+        
+<!-- 2nd column -->
+
+  <ul>    
+     <li>
+      <h5><a href="/bls/newsrels.htm#OEUS">Employment &amp; Unemployment &#187;</a></h5></li>
+        <li><a href="/bls/newsrels.htm#OEUS">Monthly</a></li> 
+        <li><a href="/bls/newsrels.htm#OEUS">Quarterly, annual, and other</a></li>
+        <li>&nbsp;</li>  
+        <li><h5><a href="/bls/newsrels.htm#OPLC">Inflation &amp; Prices &#187;</a></h5></li>
+        <li>&nbsp;</li>  
+        <li><h5><a href="/bls/newsrels.htm#OCWC">Pay &amp; Benefits &amp; Workplace Injuries &#187;</a></h5></li>
+        <li>&nbsp;</li> 
+      <li><h5><a href="/bls/newsrels.htm#OPT">Productivity &amp; Technology &#187;</a></h5></li>
+      <li>&nbsp;</li>  
+      <li><h5><a href="/bls/newsrels.htm#OEP">Employment Projections &#187;</a></h5></li>       
+      <li>&nbsp;</li>   
+      <li><h5><a href="/bls/newsrels.htm#INT">International Programs &#187;</a></h5></li>
+      <li>&nbsp;</li>         
+      <li><h5><a href="/bls/newsrels.htm#NEWS">Regional News Releases &#187;</a></h5></li>
+  </ul>
+</div>
+				</li>
+				
+                
+                <li class="submenu"><a href="/k12/">Students</a>
+
+<!-- ********************************************** Begin Students Tab LIST ****************************************** -->
+<div class="sub" id="submenu-students">
+   <ul>
+      <li><a href="/k12/games.htm">Games &amp; Quizzes</a></li>
+      <li><a href="/k12/students.htm">Student Resources</a></li>
+      <li><a href="/k12/teachers.htm">Teacher&acute;s Desk</a></li>
+      <li><a href="/k12/history.htm">History of BLS</a></li>
+      <li><a href="/k12/faq.htm">FAQs</a></li>
+   </ul>
+</div>
+<!-- ***********************************************End Students Tab LIST ******************************************** -->
+
+				</li>
+				
+                
+                <li class="submenu"><a href="https://beta.bls.gov">Beta</a>
+<!-- ***********************************************Start BETA LIST ******************************************** -->
+
+<div class="sub" id="submenu-beta">
+  <ul>
+    <li>
+      <h5><a href="https://beta.bls.gov/dataQuery/">Data Finder &#187;</a></h5>
+    </li>
+    <li>
+      <h5><a href="https://beta.bls.gov/maps/cew/us">State and County Map &#187;</a></h5>
+    </li>
+  </ul>
+</div>
+<!-- ***********************************************End BETA LIST ******************************************** --> 
+						
+				</li>
+			</ul>
+			
+		</div>
+		<div class="clearfloat"></div>
+	</div>
+</div>
+
+<!-- MAIN NAV END -->
+
+<!-- WRAPPER TOP BEGIN -->
+	<div id="wrapper-outer">
+		<div id="wrapper">
+			<div id="container">
+<!-- WRAPPER TOP END -->
+<!-- SUBDOMAIN TITLE TOP BEGIN -->
+				<div id="subdomain-title">
+					<span id="subdomain-title-text">
+					
+<!-- SUBDOMAIN TITLE TOP END -->
+<!-- SUBDOMAIN TITLE BEGIN -->
+<!--no_index_end-->
+Quarterly Census of Employment and Wages
+<!--no_index_start-->
+<!-- SUBDOMAIN TITLE END -->
+<!-- SUBDOMAIN TITLE MIDDLE BEGIN -->
+		</span>		
+<div class="article-tools-box-container">
+	<div class="article-tools-box social-media" style="margin: 8px 0px 0px 4px;" >
+       <span class="social-media">
+            SHARE ON:
+           <a href="javascript:void(0);" class="share_facebook"><img alt="share on facebook" src="/images/icons/facebook.png" title="Facebook" /></a>
+           <a href="javascript:void(0);" class="share_twitter"><img alt="share on twitter" src="/images/icons/twitter.png" title="Twitter" /></a>
+           <a href="javascript:void(0);" class="share_linkedin"><img alt="share on linkedin" src="/images/icons/linkedin.png" title="LinkedIn" /></a>
+           <!--<a href="javascript:void(0);" class="share_googleplus"><img src="/images/icons/google.png" title="Google Plus" /></a>-->
+         </span>
+    </div>
+	<div class="article-tools-box" style="margin-right: 4px;">
+		<a href="https://data.bls.gov/cgi-bin/print.pl/cew/datatoc.htm">PRINT:</a> <a href="https://data.bls.gov/cgi-bin/print.pl/cew/datatoc.htm"><img src="/images/icons/icon_small_printer.gif" alt="Print" width="16" height="16"></a>
+	</div>
+</div>
+
+<!-- SUBDOMAIN TITLE MIDDLE END -->
+
+			<div class="article-tools-box"><a href="#TB_inline?height=200&amp;width=325&amp;inlineId=cew_program_links" class="thickbox">QCEW <img src="/images/icons/icon_small_link.gif" alt="CEW Program Links"></a></div>
+			<div id="cew_program_links" style="display: none;">
+				<h2>Quarterly Census of Employment and Wages</h2>
+				<ul>
+					<li><a href="/cew/">QCEW Homepage</a></li>
+					<li><a href="/cew/cewover.htm">QCEW Overview</a></li>
+					<li><a href="/cew/cewfaq.htm">QCEW FAQs</a></li>
+					<li><a href="/cew/cewcont.htm">Contact QCEW</a></li>
+				</ul>
+			</div>
+	
+<!-- SUBDOMAIN TITLE BOTTOM BEGIN -->
+    
+	</div> <!-- End Subdomain Title Div -->
+	<div id="subdomain-title-border"></div>
+
+<!-- SUBDOMAIN TITLE BOTTOM END -->
+
+<!-- 1COL LAYOUT COL1 BEGIN -->	
+	<div class="clearfloat" id="startcontent"></div>
+	<div id="main-content-full-width" class="main-content">
+		<div id="bodytext" class="verdana md">
+		
+
+<!-- 1COL LAYOUT COL1 END -->
+
+<!--no_index_end-->
+<!-- MAIN CONTENT BEGIN -->
+
+<!-- ****************************************** End HEADER ************************************************** -->
+
+    <!-- MAIN CONTENT BEGIN -->
+    <h1>QCEW Data Files </h1>
+    <hr>
+        <p>
+            The Quarterly Census of Employment and Wages (QCEW) program provides several different types of data files.
+            These files are available for download.
+            Data classified using the North American Industry Classification System (NAICS) are available from 1990 forward, and
+            on a more limited basis from 1975 to 1989.
+            NAICS-based data files from 1990 to 2000 were re-constructed from data classified under the Standard Industrial Classification (SIC) system.
+            NAICS-based data files from 1975 to 1989 contain only totals by-ownership.
+            NAICS data can be downloaded from the NAICS-Based Data Files table below.
+        </p>
+        <p>
+            Data classified using the Standard Industrial Classification (SIC) system is available from 1975 through 2000.
+            SIC data can be downloaded from the second table below titled SIC-Based Data Files.
+        </p>
+
+        <h2></h2>
+        <strong>Release Day Access</strong>
+        <br>
+        <div>
+            <br>
+                    At 10:00 A.M. on QCEW release days, updated QCEW data are available for the
+                    current and prior year are available on our supplemental
+                    table <a href="/web/cewqtr.supp.toc.htm"> page</a>.
+                    <br>
+                    <br>
+                    At 11:00 A.M. on QCEW release days, updated QCEW data for the current and prior
+                    year, as well as for the full ranges of QCEW history are available from the links
+                    in the table below.
+                    <br>
+                    <br>
+        </div>
+    <h2></h2>
+        &nbsp; &nbsp; &nbsp; &nbsp; Related Documentation:&nbsp;&nbsp;
+        QCEW Data <a href="/cew/dataguide.htm">Guide</a>;&nbsp;&nbsp;
+        Documentation <a href="/cew/doctoc.htm">Guide</a>;&nbsp;&nbsp;
+        Open Data Access <a href="/cew/opendata.htm">Guide</a>;&nbsp;&nbsp;
+    <h2></h2>
+
+        <br>
+        <h3 id="NAICS_BASED">NAICS-Based</h3>
+        <p>
+        This table contains links to data classified using the North American Industry Classification System (NAICS).
+        The data are stored in several different formats. Each format is listed at the top of the table. By Industry
+        files from 1975 to 1989 contain only ownership totals. If data are available, then the year will be visible
+        as a link. Annual averages are provided only when an entire year's data are available. An "N/A" is present
+        when an entire year is not available.
+        </p>
+        <p>
+            &nbsp; &nbsp; &nbsp; &nbsp; <strong>Associated Codes and Titles</strong><br>
+            &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://data.bls.gov/cew/doc/titles/industry/industry_titles.htm">Industries</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://data.bls.gov/cew/doc/titles/area/area_titles.htm">Areas</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://data.bls.gov/cew/doc/titles/ownership/ownership_titles.htm">Ownerships</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://data.bls.gov/cew/doc/titles/size/size_titles.htm">Size Classes</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://data.bls.gov/cew/doc/titles/agglevel/agglevel_titles.htm">Aggregation Levels</a><br>
+        </p>
+        <br>
+
+       <table id="cew_naics_data" class="regular" cellspacing="0" cellpadding="0" xborder="1">
+
+            <caption>
+                <strong>QCEW NAICS-Based Data Files (1975 - most recent)</strong>
+            </caption>
+
+            <thead>
+                <tr>
+                    <th colspan=1>Excel Files</th>
+                    <th colspan=2>CSVs<br>By Area</th>
+                    <th colspan=2>CSVs<br>By Industry</th>
+                    <th colspan=2>CSVs<br>Single Files</th>
+                    <th colspan=1>CSVs<br>By Size</th>
+                    <th colspan=1>Legacy<br>Flat Files</th>
+                </tr>
+                <tr>
+                    <th>County<br>High-Level</th>
+                    <th>Quarterly</th>
+                    <th>Annual<br>Averages</th>
+                    <th>Quarterly</th>
+                    <th>Annual<br>Averages</th>
+                    <th>Quarterly</th>
+                    <th>Annual<br>Averages</th>
+                    <th>First<br>Quarter</th>
+                    <th>All ENB/END</th>
+                </tr>
+                <tr>
+                    <th><a href="https://data.bls.gov/cew/doc/layouts/cty_high_level_layout.htm">File Layout</a></th>
+                    <th><a href="https://data.bls.gov/cew/doc/layouts/csv_quarterly_layout.htm">File Layout</a></th>
+                    <th><a href="https://data.bls.gov/cew/doc/layouts/csv_annual_layout.htm">File Layout</a></th>
+                    <th><a href="https://data.bls.gov/cew/doc/layouts/csv_quarterly_layout.htm">File Layout</a></th>
+                    <th><a href="https://data.bls.gov/cew/doc/layouts/csv_annual_layout.htm">File Layout</a></th>
+                    <th><a href="https://data.bls.gov/cew/doc/layouts/csv_quarterly_layout.htm">File Layout</a></th>
+                    <th><a href="https://data.bls.gov/cew/doc/layouts/csv_annual_layout.htm">File Layout</a></th>
+                    <th><a href="https://data.bls.gov/cew/doc/layouts/csv_quarterly_layout.htm">File Layout</a></th>
+                    <th><a href="https://data.bls.gov/cew/doc/layouts/enb_end_layout.htm">File Layouts</a></th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <!-- 2017 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/2017/xls/2017_all_county_high_level.zip">2017</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2017/csv/2017_qtrly_by_area.zip">2017</a></td>
+                    <td>N/A</td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2017/csv/2017_qtrly_by_industry.zip">2017</a></td>
+                    <td>N/A</td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2017/csv/2017_qtrly_singlefile.zip">2017</a></td>
+                    <td>N/A</td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2017/csv/2017_q1_by_size.zip">2017</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2017/enb/2017_all_enb.zip">2017</a></td>
+                </tr>
+
+                <!-- 2016 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/2016/xls/2016_all_county_high_level.zip">2016</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2016/csv/2016_qtrly_by_area.zip">2016</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2016/csv/2016_annual_by_area.zip">2016</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2016/csv/2016_qtrly_by_industry.zip">2016</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2016/csv/2016_annual_by_industry.zip">2016</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2016/csv/2016_qtrly_singlefile.zip">2016</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2016/csv/2016_annual_singlefile.zip">2016</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2016/csv/2016_q1_by_size.zip">2016</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2016/enb/2016_all_enb.zip">2016</a></td>
+                </tr>
+
+                <!-- 2015 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/2015/xls/2015_all_county_high_level.zip">2015</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2015/csv/2015_qtrly_by_area.zip">2015</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2015/csv/2015_annual_by_area.zip">2015</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2015/csv/2015_qtrly_by_industry.zip">2015</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2015/csv/2015_annual_by_industry.zip">2015</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2015/csv/2015_qtrly_singlefile.zip">2015</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2015/csv/2015_annual_singlefile.zip">2015</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2015/csv/2015_q1_by_size.zip">2015</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2015/enb/2015_all_enb.zip">2015</a></td>
+                </tr>
+
+
+                <!-- 2014 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/2014/xls/2014_all_county_high_level.zip">2014</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2014/csv/2014_qtrly_by_area.zip">2014</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2014/csv/2014_annual_by_area.zip">2014</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2014/csv/2014_qtrly_by_industry.zip">2014</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2014/csv/2014_annual_by_industry.zip">2014</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2014/csv/2014_qtrly_singlefile.zip">2014</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2014/csv/2014_annual_singlefile.zip">2014</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2014/csv/2014_q1_by_size.zip">2014</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2014/enb/2014_all_enb.zip">2014</a></td>
+                </tr>
+
+                <!-- 2013 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/2013/xls/2013_all_county_high_level.zip">2013</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2013/csv/2013_qtrly_by_area.zip">2013</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2013/csv/2013_annual_by_area.zip">2013</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2013/csv/2013_qtrly_by_industry.zip">2013</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2013/csv/2013_annual_by_industry.zip">2013</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2013/csv/2013_qtrly_singlefile.zip">2013</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2013/csv/2013_annual_singlefile.zip">2013</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2013/csv/2013_q1_by_size.zip">2013</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2013/enb/2013_all_enb.zip">2013</a></td>
+                </tr>
+
+                <!-- 2012 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/2012/xls/2012_all_county_high_level.zip">2012</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2012/csv/2012_qtrly_by_area.zip">2012</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2012/csv/2012_annual_by_area.zip">2012</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2012/csv/2012_qtrly_by_industry.zip">2012</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2012/csv/2012_annual_by_industry.zip">2012</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2012/csv/2012_qtrly_singlefile.zip">2012</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2012/csv/2012_annual_singlefile.zip">2012</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2012/csv/2012_q1_by_size.zip">2012</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2012/enb/2012_all_enb.zip">2012</a></td>
+                </tr>
+
+                <!-- 2011 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/2011/xls/2011_all_county_high_level.zip">2011</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2011/csv/2011_qtrly_by_area.zip">2011</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2011/csv/2011_annual_by_area.zip">2011</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2011/csv/2011_qtrly_by_industry.zip">2011</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2011/csv/2011_annual_by_industry.zip">2011</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2011/csv/2011_qtrly_singlefile.zip">2011</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2011/csv/2011_annual_singlefile.zip">2011</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2011/csv/2011_q1_by_size.zip">2011</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2011/enb/2011_all_enb.zip">2011</a></td>
+                </tr>
+
+                <!-- 2010 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/2010/xls/2010_all_county_high_level.zip">2010</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2010/csv/2010_qtrly_by_area.zip">2010</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2010/csv/2010_annual_by_area.zip">2010</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2010/csv/2010_qtrly_by_industry.zip">2010</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2010/csv/2010_annual_by_industry.zip">2010</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2010/csv/2010_qtrly_singlefile.zip">2010</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2010/csv/2010_annual_singlefile.zip">2010</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2010/csv/2010_q1_by_size.zip">2010</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2010/enb/2010_all_enb.zip">2010</a></td>
+                </tr>
+
+                <!-- 2009 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/2009/xls/2009_all_county_high_level.zip">2009</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2009/csv/2009_qtrly_by_area.zip">2009</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2009/csv/2009_annual_by_area.zip">2009</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2009/csv/2009_qtrly_by_industry.zip" >2009</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2009/csv/2009_annual_by_industry.zip">2009</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2009/csv/2009_qtrly_singlefile.zip">2009</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2009/csv/2009_annual_singlefile.zip">2009</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2009/csv/2009_q1_by_size.zip">2009</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2009/enb/2009_all_enb.zip">2009</a></td>
+                </tr>
+
+                <!-- 2008 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/2008/xls/2008_all_county_high_level.zip">2008</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2008/csv/2008_qtrly_by_area.zip">2008</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2008/csv/2008_annual_by_area.zip">2008</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2008/csv/2008_qtrly_by_industry.zip">2008</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2008/csv/2008_annual_by_industry.zip">2008</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2008/csv/2008_qtrly_singlefile.zip">2008</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2008/csv/2008_annual_singlefile.zip">2008</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2008/csv/2008_q1_by_size.zip">2008</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2008/enb/2008_all_enb.zip">2008</a></td>
+                </tr>
+
+                <!-- 2007 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/2007/xls/2007_all_county_high_level.zip">2007</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2007/csv/2007_qtrly_by_area.zip">2007</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2007/csv/2007_annual_by_area.zip">2007</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2007/csv/2007_qtrly_by_industry.zip">2007</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2007/csv/2007_annual_by_industry.zip">2007</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2007/csv/2007_qtrly_singlefile.zip">2007</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2007/csv/2007_annual_singlefile.zip">2007</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2007/csv/2007_q1_by_size.zip">2007</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2007/enb/2007_all_enb.zip">2007</a></td>
+                </tr>
+
+                <!-- 2006 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/2006/xls/2006_all_county_high_level.zip">2006</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2006/csv/2006_qtrly_by_area.zip">2006</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2006/csv/2006_annual_by_area.zip">2006</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2006/csv/2006_qtrly_by_industry.zip">2006</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2006/csv/2006_annual_by_industry.zip">2006</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2006/csv/2006_qtrly_singlefile.zip">2006</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2006/csv/2006_annual_singlefile.zip">2006</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2006/csv/2006_q1_by_size.zip">2006</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2006/enb/2006_all_enb.zip">2006</a></td>
+                </tr>
+
+                <!-- 2005 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/2005/xls/2005_all_county_high_level.zip">2005</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2005/csv/2005_qtrly_by_area.zip">2005</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2005/csv/2005_annual_by_area.zip">2005</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2005/csv/2005_qtrly_by_industry.zip">2005</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2005/csv/2005_annual_by_industry.zip">2005</a> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2005/csv/2005_qtrly_singlefile.zip">2005</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2005/csv/2005_annual_singlefile.zip">2005</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2005/csv/2005_q1_by_size.zip">2005</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2005/enb/2005_all_enb.zip">2005</a></td>
+                </tr>
+
+                <!-- 2004 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/2004/xls/2004_all_county_high_level.zip">2004</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2004/csv/2004_qtrly_by_area.zip">2004</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2004/csv/2004_annual_by_area.zip">2004</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2004/csv/2004_qtrly_by_industry.zip">2004</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2004/csv/2004_annual_by_industry.zip">2004</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2004/csv/2004_qtrly_singlefile.zip">2004</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2004/csv/2004_annual_singlefile.zip">2004</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2004/csv/2004_q1_by_size.zip">2004</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2004/enb/2004_all_enb.zip">2004</a></td>
+                </tr>
+
+                <!-- 2003 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/2003/xls/2003_all_county_high_level.zip">2003</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2003/csv/2003_qtrly_by_area.zip">2003</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2003/csv/2003_annual_by_area.zip">2003</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2003/csv/2003_qtrly_by_industry.zip">2003</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2003/csv/2003_annual_by_industry.zip">2003</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2003/csv/2003_qtrly_singlefile.zip">2003</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2003/csv/2003_annual_singlefile.zip">2003</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2003/csv/2003_q1_by_size.zip">2003</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2003/enb/2003_all_enb.zip">2003</a></td>
+                </tr>
+
+                <!-- 2002 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/2002/xls/2002_all_county_high_level.zip">2002</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2002/csv/2002_qtrly_by_area.zip">2002</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2002/csv/2002_annual_by_area.zip">2002 </a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2002/csv/2002_qtrly_by_industry.zip">2002</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2002/csv/2002_annual_by_industry.zip">2002</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2002/csv/2002_qtrly_singlefile.zip">2002</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2002/csv/2002_annual_singlefile.zip">2002</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2002/csv/2002_q1_by_size.zip">2002</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2002/enb/2002_all_enb.zip">2002</a></td>
+                </tr>
+
+                <!-- 2001 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/2001/xls/2001_all_county_high_level.zip">2001</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2001/csv/2001_qtrly_by_area.zip">2001</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2001/csv/2001_annual_by_area.zip">2001</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2001/csv/2001_qtrly_by_industry.zip">2001</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2001/csv/2001_annual_by_industry.zip">2001</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2001/csv/2001_qtrly_singlefile.zip" >2001</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2001/csv/2001_annual_singlefile.zip">2001</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2001/csv/2001_q1_by_size.zip">2001</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2001/enb/2001_all_enb.zip">2001</a></td>
+                </tr>
+
+                <!-- 2000 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/xls/2000_all_county_high_level.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/csv/2000_qtrly_by_area.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/csv/2000_annual_by_area.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/csv/2000_qtrly_by_industry.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/csv/2000_annual_by_industry.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/csv/2000_qtrly_singlefile.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/csv/2000_annual_singlefile.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/csv/2000_q1_by_size.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/enb/2000_all_enb.zip">2000</a></td>
+                </tr>
+
+                <!-- 1999 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/xls/1999_all_county_high_level.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/csv/1999_qtrly_by_area.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/csv/1999_annual_by_area.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/csv/1999_qtrly_by_industry.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/csv/1999_annual_by_industry.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/csv/1999_qtrly_singlefile.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/csv/1999_annual_singlefile.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/csv/1999_q1_by_size.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/enb/1999_all_enb.zip">1999</a></td>
+                </tr>
+
+                <!-- 1998 (NAICS)-->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/xls/1998_all_county_high_level.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/csv/1998_qtrly_by_area.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/csv/1998_annual_by_area.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/csv/1998_qtrly_by_industry.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/csv/1998_annual_by_industry.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/csv/1998_qtrly_singlefile.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/csv/1998_annual_singlefile.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/csv/1998_q1_by_size.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/enb/1998_all_enb.zip">1998</a></td>
+                </tr>
+
+                <!-- 1997 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/xls/1997_all_county_high_level.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/csv/1997_qtrly_by_area.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/csv/1997_annual_by_area.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/csv/1997_qtrly_by_industry.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/csv/1997_annual_by_industry.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/csv/1997_qtrly_singlefile.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/csv/1997_annual_singlefile.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/csv/1997_q1_by_size.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/enb/1997_all_enb.zip">1997</a></td>
+                </tr>
+
+                <!-- 1996 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/xls/1996_all_county_high_level.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/csv/1996_qtrly_by_area.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/csv/1996_annual_by_area.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/csv/1996_qtrly_by_industry.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/csv/1996_annual_by_industry.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/csv/1996_qtrly_singlefile.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/csv/1996_annual_singlefile.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/csv/1996_q1_by_size.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/enb/1996_all_enb.zip">1996</a></td>
+                </tr>
+
+                <!-- 1995 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/xls/1995_all_county_high_level.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/csv/1995_qtrly_by_area.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/csv/1995_annual_by_area.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/csv/1995_qtrly_by_industry.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/csv/1995_annual_by_industry.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/csv/1995_qtrly_singlefile.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/csv/1995_annual_singlefile.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/csv/1995_q1_by_size.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/enb/1995_all_enb.zip">1995</a></td>
+                </tr>
+
+                <!-- 1994 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/xls/1994_all_county_high_level.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/csv/1994_qtrly_by_area.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/csv/1994_annual_by_area.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/csv/1994_qtrly_by_industry.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/csv/1994_annual_by_industry.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/csv/1994_qtrly_singlefile.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/csv/1994_annual_singlefile.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/csv/1994_q1_by_size.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/enb/1994_all_enb.zip">1994</a></td>
+                </tr>
+
+                <!-- 1993 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/xls/1993_all_county_high_level.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/csv/1993_qtrly_by_area.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/csv/1993_annual_by_area.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/csv/1993_qtrly_by_industry.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/csv/1993_annual_by_industry.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/csv/1993_qtrly_singlefile.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/csv/1993_annual_singlefile.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/csv/1993_q1_by_size.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/enb/1993_all_enb.zip">1993</a></td>
+                </tr>
+
+                <!-- 1992 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/xls/1992_all_county_high_level.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/csv/1992_qtrly_by_area.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/csv/1992_annual_by_area.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/csv/1992_qtrly_by_industry.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/csv/1992_annual_by_industry.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/csv/1992_qtrly_singlefile.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/csv/1992_annual_singlefile.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/csv/1992_q1_by_size.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/enb/1992_all_enb.zip">1992</a></td>
+                </tr>
+
+                <!-- 1991 (NAICS) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/xls/1991_all_county_high_level.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/csv/1991_qtrly_by_area.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/csv/1991_annual_by_area.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/csv/1991_qtrly_by_industry.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/csv/1991_annual_by_industry.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/csv/1991_qtrly_singlefile.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/csv/1991_annual_singlefile.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/csv/1991_q1_by_size.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/enb/1991_all_enb.zip" >1991</a></td>
+                </tr>
+
+                <!-- 1990 (NAICS) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/xls/1990_all_county_high_level.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/csv/1990_qtrly_by_area.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/csv/1990_annual_by_area.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/csv/1990_qtrly_by_industry.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/csv/1990_annual_by_industry.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/csv/1990_qtrly_singlefile.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/csv/1990_annual_singlefile.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/csv/1990_q1_by_size.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/enb/1990_all_enb.zip">1990</a></td>
+                </tr>
+
+                <!-- 1989 (NAICS 10 Totals , By Industry Only)  -->
+                <tr>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1989/csv/1989_qtrly_naics10_totals.zip" > 1989</a> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1989/csv/1989_annual_naics10_totals.zip" >1989</a> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1988 (NAICS 10 Totals , By Industry Only) -->
+                <tr class="greenbar">
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1988/csv/1988_qtrly_naics10_totals.zip">1988</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1988/csv/1988_annual_naics10_totals.zip">1988</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1987 (NAICS 10 Totals , By Industry Only -->
+                <tr>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1987/csv/1987_qtrly_naics10_totals.zip">1987</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1987/csv/1987_annual_naics10_totals.zip">1987</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1986 (NAICS 10 Totals , By Industry Only -->
+                <tr class="greenbar">
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href='/cew/data/files/1986/csv/1986_qtrly_naics10_totals.zip'>1986</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1986/csv/1986_annual_naics10_totals.zip" >1986</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1985 (NAICS 10 Totals , By Industry Only -->
+                <tr>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1985/csv/1985_qtrly_naics10_totals.zip">1985</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1985/csv/1985_annual_naics10_totals.zip">1985</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1984 (NAICS 10 Totals , By Industry Only -->
+                <tr class="greenbar">
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1984/csv/1984_qtrly_naics10_totals.zip">1984</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1984/csv/1984_annual_naics10_totals.zip">1984</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1983 (NAICS 10 Totals , By Industry Only -->
+                <tr>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1983/csv/1983_qtrly_naics10_totals.zip">1983</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1983/csv/1983_annual_naics10_totals.zip">1983</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1982 (NAICS 10 Totals , By Industry Only -->
+                <tr class="greenbar">
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1982/csv/1982_qtrly_naics10_totals.zip">1982</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1982/csv/1982_annual_naics10_totals.zip">1982</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1981 (NAICS 10 Totals , By Industry Only -->
+                <tr>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1981/csv/1981_qtrly_naics10_totals.zip">1981</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1981/csv/1981_annual_naics10_totals.zip">1981</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1980 (NAICS 10 Totals , By Industry Only -->
+                <tr class="greenbar">
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1980/csv/1980_qtrly_naics10_totals.zip">1980</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1980/csv/1980_annual_naics10_totals.zip">1980</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1979 (NAICS 10 Totals , By Industry Only -->
+                <tr>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1979/csv/1979_qtrly_naics10_totals.zip">1979</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1979/csv/1979_annual_naics10_totals.zip">1979</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1978 (NAICS 10 Totals , By Industry Only -->
+                <tr class="greenbar">
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1978/csv/1978_qtrly_naics10_totals.zip">1978</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1978/csv/1978_annual_naics10_totals.zip">1978</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1977 (NAICS 10 Totals , By Industry Only -->
+                <tr>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1977/csv/1977_qtrly_naics10_totals.zip">1977</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1977/csv/1977_annual_naics10_totals.zip">1977</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1976 (NAICS 10 Totals , By Industry Only -->
+                <tr class="greenbar">
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1976/csv/1976_qtrly_naics10_totals.zip">1976</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1976/csv/1976_annual_naics10_totals.zip">1976</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1975 (NAICS 10 Totals , By Industry Only -->
+                <tr>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1975/csv/1975_qtrly_naics10_totals.zip">1975</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1975/csv/1975_annual_naics10_totals.zip">1975</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+        <br>
+
+        <h3 id="SIC_BASED"> SIC-Based</h3>
+        <p>
+        This table contains links to data classified using the Standard Industrial Classification (SIC) system.
+        The data are stored in several different formats. Each format is listed at the top of the table.
+        If data are available from 1975 through 2000. Legacy EWB files and the CSV, by-size, files are
+        only available from 1997 through 2000.
+        </p>
+
+        <p>
+            &nbsp; &nbsp; &nbsp; &nbsp; <strong>Associated Codes and Titles</strong><br>
+            &nbsp; &nbsp; &nbsp; &nbsp; <a href="https://data.bls.gov/cew/doc/titles/industry/sic_industry_titles.htm">Industries</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://data.bls.gov/cew/doc/titles/area/sic_area_titles.htm">Areas</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://data.bls.gov/cew/doc/titles/ownership/sic_ownership_titles.htm">Ownerships</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://data.bls.gov/cew/doc/titles/size/sic_size_titles.htm">Size Classes</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://data.bls.gov/cew/doc/titles/agglevel/sic_agglevel_titles.htm">Aggregation Levels</a><br>
+        </p>
+
+        <br>
+
+        <table id="cew_sic_data" class="regular" cellspacing="0" cellpadding="0" xborder="1">
+
+           <caption>
+               <strong>QCEW SIC-Based Data Files (1975-2000)</strong>
+           </caption>
+
+           <thead>
+               <tr>
+                   <th colspan=2>CSVs<br>By Area</th>
+                   <th colspan=2>CSVs<br>By Industry</th>
+                   <th colspan=2>CSVs<br>Single Files</th>
+                   <th colspan=1>CSVs<br> By Size</th>
+                   <th colspan=1>Legacy <br> Flat Files</th>
+               </tr>
+               <tr>
+                   <th>Quarterly</th>
+                   <th>Annual<br>Averages</th>
+                   <th>Quarterly</th>
+                   <th>Annual<br>Averages</th>
+                   <th>Quarterly</th>
+                   <th>Annual<br>Averages</th>
+                   <th colspan=1>First <br>Quarter</th>
+                   <th colspan=1>All EWB</th>
+               </tr>
+               <tr>
+                   <th><a href="https://data.bls.gov/cew/doc/layouts/sic_csv_quarterly_layout.htm"> File Layout </a></th>
+                   <th><a href="https://data.bls.gov/cew/doc/layouts/sic_csv_annual_layout.htm"> File Layout </a></th>
+                   <th><a href="https://data.bls.gov/cew/doc/layouts/sic_csv_quarterly_layout.htm"> File Layout </a></th>
+                   <th><a href="https://data.bls.gov/cew/doc/layouts/sic_csv_annual_layout.htm"> File Layout </a></th>
+                   <th><a href="https://data.bls.gov/cew/doc/layouts/sic_csv_quarterly_layout.htm"> File Layout </a></th>
+                   <th><a href="https://data.bls.gov/cew/doc/layouts/sic_csv_annual_layout.htm"> File Layout </a></th>
+                   <th colspan=1><a href="https://data.bls.gov/cew/doc/layouts/sic_csv_quarterly_layout.htm"> File Layout </a></th>
+                   <th colspan=1><a href="https://data.bls.gov/cew/doc/layouts/sic_ewb_layout.htm"> File Layout</a></th>
+               </tr>
+           </thead>
+
+           <tbody>
+
+                <!-- 2000 (SIC) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/sic/csv/sic_2000_qtrly_by_area.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/sic/csv/sic_2000_annual_by_area.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/sic/csv/sic_2000_qtrly_by_industry.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/sic/csv/sic_2000_annual_by_industry.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/sic/csv/sic_2000_qtrly_singlefile.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/sic/csv/sic_2000_annual_singlefile.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/sic/csv/sic_2000_q1_by_size.zip">2000</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/2000/sic/ewb/sic_2000_all_ewb.zip">2000</a></td>
+                </tr>
+
+                <!-- 1999 (SIC) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/sic/csv/sic_1999_qtrly_by_area.zip" >1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/sic/csv/sic_1999_annual_by_area.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/sic/csv/sic_1999_qtrly_by_industry.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/sic/csv/sic_1999_annual_by_industry.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/sic/csv/sic_1999_qtrly_singlefile.zip" >1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/sic/csv/sic_1999_annual_singlefile.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/sic/csv/sic_1999_q1_by_size.zip">1999</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1999/sic/ewb/sic_1999_all_ewb.zip">1999</a></td>
+                </tr>
+
+                <!-- 1998 (SIC) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/sic/csv/sic_1998_qtrly_by_area.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/sic/csv/sic_1998_annual_by_area.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/sic/csv/sic_1998_qtrly_by_industry.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/sic/csv/sic_1998_annual_by_industry.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/sic/csv/sic_1998_qtrly_singlefile.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/sic/csv/sic_1998_annual_singlefile.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/sic/csv/sic_1998_q1_by_size.zip">1998</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1998/sic/ewb/sic_1998_all_ewb.zip">1998</a></td>
+                </tr>
+
+                <!-- 1997 (SIC) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/sic/csv/sic_1997_qtrly_by_area.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/sic/csv/sic_1997_annual_by_area.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/sic/csv/sic_1997_qtrly_by_industry.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/sic/csv/sic_1997_annual_by_industry.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/sic/csv/sic_1997_qtrly_singlefile.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/sic/csv/sic_1997_annual_singlefile.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/sic/csv/sic_1997_q1_by_size.zip">1997</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1997/sic/ewb/sic_1997_all_ewb.zip">1997</a></td>
+                </tr>
+
+                <!-- 1996 (SIC , CSVs only) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/sic/csv/sic_1996_qtrly_by_area.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/sic/csv/sic_1996_annual_by_area.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/sic/csv/sic_1996_qtrly_by_industry.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/sic/csv/sic_1996_annual_by_industry.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/sic/csv/sic_1996_qtrly_singlefile.zip">1996</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1996/sic/csv/sic_1996_annual_singlefile.zip">1996</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1995 (SIC , CSVs only) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/sic/csv/sic_1995_qtrly_by_area.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/sic/csv/sic_1995_annual_by_area.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/sic/csv/sic_1995_qtrly_by_industry.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/sic/csv/sic_1995_annual_by_industry.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/sic/csv/sic_1995_qtrly_singlefile.zip">1995</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1995/sic/csv/sic_1995_annual_singlefile.zip">1995</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1994 (SIC , CSVs only) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/sic/csv/sic_1994_qtrly_by_area.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/sic/csv/sic_1994_annual_by_area.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/sic/csv/sic_1994_qtrly_by_industry.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/sic/csv/sic_1994_annual_by_industry.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/sic/csv/sic_1994_qtrly_singlefile.zip">1994</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1994/sic/csv/sic_1994_annual_singlefile.zip">1994</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1993 (SIC , CSVs only) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/sic/csv/sic_1993_qtrly_by_area.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/sic/csv/sic_1993_annual_by_area.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/sic/csv/sic_1993_qtrly_by_industry.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/sic/csv/sic_1993_annual_by_industry.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/sic/csv/sic_1993_qtrly_singlefile.zip">1993</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1993/sic/csv/sic_1993_annual_singlefile.zip">1993</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1992 (SIC , CSVs only) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/sic/csv/sic_1992_qtrly_by_area.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/sic/csv/sic_1992_annual_by_area.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/sic/csv/sic_1992_qtrly_by_industry.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/sic/csv/sic_1992_annual_by_industry.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/sic/csv/sic_1992_qtrly_singlefile.zip">1992</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1992/sic/csv/sic_1992_annual_singlefile.zip">1992</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1991 (SIC , CSVs only) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/sic/csv/sic_1991_qtrly_by_area.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/sic/csv/sic_1991_annual_by_area.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/sic/csv/sic_1991_qtrly_by_industry.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/sic/csv/sic_1991_annual_by_industry.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/sic/csv/sic_1991_qtrly_singlefile.zip">1991</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1991/sic/csv/sic_1991_annual_singlefile.zip">1991</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1990 (SIC , CSVs only) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/sic/csv/sic_1990_qtrly_by_area.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/sic/csv/sic_1990_annual_by_area.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/sic/csv/sic_1990_qtrly_by_industry.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/sic/csv/sic_1990_annual_by_industry.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/sic/csv/sic_1990_qtrly_singlefile.zip">1990</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1990/sic/csv/sic_1990_annual_singlefile.zip">1990</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1989 (SIC , CSVs only) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1989/sic/csv/sic_1989_qtrly_by_area.zip">1989</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1989/sic/csv/sic_1989_annual_by_area.zip">1989</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1989/sic/csv/sic_1989_qtrly_by_industry.zip">1989</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1989/sic/csv/sic_1989_annual_by_industry.zip">1989</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1989/sic/csv/sic_1989_qtrly_singlefile.zip">1989</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1989/sic/csv/sic_1989_annual_singlefile.zip">1989</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1988 (SIC , CSVs only) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1988/sic/csv/sic_1988_qtrly_by_area.zip">1988</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1988/sic/csv/sic_1988_annual_by_area.zip">1988</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1988/sic/csv/sic_1988_qtrly_by_industry.zip">1988</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1988/sic/csv/sic_1988_annual_by_industry.zip">1988</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1988/sic/csv/sic_1988_qtrly_singlefile.zip">1988</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1988/sic/csv/sic_1988_annual_singlefile.zip">1988</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1987 (SIC , CSVs only) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1987/sic/csv/sic_1987_qtrly_by_area.zip">1987</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1987/sic/csv/sic_1987_annual_by_area.zip">1987</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1987/sic/csv/sic_1987_qtrly_by_industry.zip">1987</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1987/sic/csv/sic_1987_annual_by_industry.zip">1987</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1987/sic/csv/sic_1987_qtrly_singlefile.zip">1987</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1987/sic/csv/sic_1987_annual_singlefile.zip">1987</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1986 (SIC, CSVs only) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1986/sic/csv/sic_1986_qtrly_by_area.zip">1986</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1986/sic/csv/sic_1986_annual_by_area.zip">1986</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1986/sic/csv/sic_1986_qtrly_by_industry.zip">1986</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1986/sic/csv/sic_1986_annual_by_industry.zip">1986</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1986/sic/csv/sic_1986_qtrly_singlefile.zip">1986</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1986/sic/csv/sic_1986_annual_singlefile.zip">1986</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1985 (SIC, CSVs only) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1985/sic/csv/sic_1985_qtrly_by_area.zip">1985</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1985/sic/csv/sic_1985_annual_by_area.zip">1985</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1985/sic/csv/sic_1985_qtrly_by_industry.zip">1985</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1985/sic/csv/sic_1985_annual_by_industry.zip">1985</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1985/sic/csv/sic_1985_qtrly_singlefile.zip">1985</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1985/sic/csv/sic_1985_annual_singlefile.zip">1985</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1984 (SIC, CSVs only) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1984/sic/csv/sic_1984_qtrly_by_area.zip">1984</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1984/sic/csv/sic_1984_annual_by_area.zip">1984</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1984/sic/csv/sic_1984_qtrly_by_industry.zip">1984</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1984/sic/csv/sic_1984_annual_by_industry.zip">1984</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1984/sic/csv/sic_1984_qtrly_singlefile.zip">1984</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1984/sic/csv/sic_1984_annual_singlefile.zip">1984</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1983 (SIC, CSVs only) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1983/sic/csv/sic_1983_qtrly_by_area.zip">1983</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1983/sic/csv/sic_1983_annual_by_area.zip">1983</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1983/sic/csv/sic_1983_qtrly_by_industry.zip">1983</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1983/sic/csv/sic_1983_annual_by_industry.zip">1983</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1983/sic/csv/sic_1983_qtrly_singlefile.zip">1983</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1983/sic/csv/sic_1983_annual_singlefile.zip">1983</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1982 (SIC, CSVs only) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1982/sic/csv/sic_1982_qtrly_by_area.zip">1982</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1982/sic/csv/sic_1982_annual_by_area.zip">1982</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1982/sic/csv/sic_1982_qtrly_by_industry.zip">1982</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1982/sic/csv/sic_1982_annual_by_industry.zip">1982</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1982/sic/csv/sic_1982_qtrly_singlefile.zip">1982</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1982/sic/csv/sic_1982_annual_singlefile.zip">1982</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1981 (SIC, CSVs only) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1981/sic/csv/sic_1981_qtrly_by_area.zip">1981</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1981/sic/csv/sic_1981_annual_by_area.zip">1981</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1981/sic/csv/sic_1981_qtrly_by_industry.zip">1981</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1981/sic/csv/sic_1981_annual_by_industry.zip">1981</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1981/sic/csv/sic_1981_qtrly_singlefile.zip">1981</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1981/sic/csv/sic_1981_annual_singlefile.zip">1981</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1980 (SIC, CSVs only) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1980/sic/csv/sic_1980_qtrly_by_area.zip">1980</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1980/sic/csv/sic_1980_annual_by_area.zip">1980</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1980/sic/csv/sic_1980_qtrly_by_industry.zip">1980</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1980/sic/csv/sic_1980_annual_by_industry.zip">1980</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1980/sic/csv/sic_1980_qtrly_singlefile.zip">1980</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1980/sic/csv/sic_1980_annual_singlefile.zip">1980</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1979 (SIC, CSVs only) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1979/sic/csv/sic_1979_qtrly_by_area.zip">1979</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1979/sic/csv/sic_1979_annual_by_area.zip">1979</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1979/sic/csv/sic_1979_qtrly_by_industry.zip">1979</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1979/sic/csv/sic_1979_annual_by_industry.zip">1979</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1979/sic/csv/sic_1979_qtrly_singlefile.zip">1979</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1979/sic/csv/sic_1979_annual_singlefile.zip">1979</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1978 (SIC, CSVs only) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1978/sic/csv/sic_1978_qtrly_by_area.zip">1978</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1978/sic/csv/sic_1978_annual_by_area.zip">1978</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1978/sic/csv/sic_1978_qtrly_by_industry.zip">1978</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1978/sic/csv/sic_1978_annual_by_industry.zip">1978</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1978/sic/csv/sic_1978_qtrly_singlefile.zip">1978</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1978/sic/csv/sic_1978_annual_singlefile.zip">1978</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1977 (SIC CSVs only) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1977/sic/csv/sic_1977_qtrly_by_area.zip">1977</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1977/sic/csv/sic_1977_annual_by_area.zip">1977</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1977/sic/csv/sic_1977_qtrly_by_industry.zip">1977</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1977/sic/csv/sic_1977_annual_by_industry.zip">1977</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1977/sic/csv/sic_1977_qtrly_singlefile.zip">1977</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1977/sic/csv/sic_1977_annual_singlefile.zip">1977</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1976 (SIC CSVs only) -->
+                <tr>
+                    <td><a href="https://data.bls.gov/cew/data/files/1976/sic/csv/sic_1976_qtrly_by_area.zip">1976</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1976/sic/csv/sic_1976_annual_by_area.zip">1976</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1976/sic/csv/sic_1976_qtrly_by_industry.zip">1976</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1976/sic/csv/sic_1976_annual_by_industry.zip">1976</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1976/sic/csv/sic_1976_qtrly_singlefile.zip">1976</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1976/sic/csv/sic_1976_annual_singlefile.zip">1976</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+                <!-- 1975 (SIC CSVs only) -->
+                <tr class="greenbar">
+                    <td><a href="https://data.bls.gov/cew/data/files/1975/sic/csv/sic_1975_qtrly_by_area.zip">1975</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1975/sic/csv/sic_1975_annual_by_area.zip">1975</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1975/sic/csv/sic_1975_qtrly_by_industry.zip">1975</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1975/sic/csv/sic_1975_annual_by_industry.zip">1975</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1975/sic/csv/sic_1975_qtrly_singlefile.zip">1975</a></td>
+                    <td><a href="https://data.bls.gov/cew/data/files/1975/sic/csv/sic_1975_annual_singlefile.zip">1975</a></td>
+                    <td> <!-- empty --> </td>
+                    <td> <!-- empty --> </td>
+                </tr>
+
+            </tbody>
+
+      </table>
+
+        <br>
+        <br>
+        <p>&nbsp;</p>
+        <p class="update">
+          <strong>Last Modified Date:</strong>
+          December 13, 2017
+        </p>
+<!-- ********************************************TRAILER FILES******************************************** -->
+<!-- MAIN CONTENT END -->
+
+<!--no_index_start-->
+<!-- 2COL LAYOUT COL2 BEGIN -->
+		<div class="social-media"><div>Recommend this page using:</div>
+	<div><a href="javascript:void(0);" class="share_facebook"><img alt="share on facebook" src="/images/icons/facebook.png"></a><span><a href="javascript:void(0);" class="share_facebook">Facebook</a></span></div>
+	<div><a href="javascript:void(0);" class="share_twitter"><img alt="share on twitter" src="/images/icons/twitter.png"></a><span><a href="javascript:void(0);" class="share_twitter">Twitter</a></span></div>
+	<div><a href="javascript:void(0);" class="share_linkedin"><img alt="share on linkedin" src="/images/icons/linkedin.png"></a><span><a href="javascript:void(0);" class="share_linkedin">LinkedIn</a></span></div>
+	<!--<div><a href="javascript:void(0);" class="share_googleplus"><img src="/images/icons/google.png"></a><span><a href="javascript:void(0);" class="share_googleplus">Google+</a></span></div>-->
+</div>
+		</div>
+	</div>
+	<div class="clearfloat"></div>
+
+<!-- 2COL LAYOUT COL2 END -->
+
+<!-- QUICK LINKS BEGIN -->
+			<div class="clearfloat"></div>
+			<div id="quicklinks-wrapper">
+				<div id="quicklinks">
+						<ul><li><h4>tools</h4></li>
+							<li><a href="/eag/">Areas at a Glance </a></li>
+							<li><a href="/iag/">Industries at a Glance </a></li>
+							<li><a href="/bls/newsrels.htm">Economic Releases</a></li>
+							<li><a href="/data/">Databases &amp; Tables</a></li>
+							<li><a href="/map/MapToolServlet?survey=la">Maps</a></li>
+						</ul>
+						<ul><li><h4>calculators</h4></li>
+							<li><a href="/data/inflation_calculator.htm">Inflation</a></li>
+							<!--<li><a href="/location_quotient/">Location Quotient</a> </li> -->
+							<li><a href="/iirc/">Injury And Illness</a></li>
+						</ul>
+						<ul><li><h4>help</h4></li>
+							<li><a href="/help/">Help &amp; Tutorials</a></li>
+							<li><a href="/bls/faqs.htm">FAQs</a></li>
+							<li><a href="/bls/glossary.htm">Glossary</a></li>
+							<li><a href="/bls/infohome.htm">About BLS</a></li>
+							<li><a href="/bls/contact.htm">Contact Us</a></li>
+						</ul>
+						<ul><li><h4>info</h4></li>
+							<li><a href="/newsroom/">What's New</a></li>
+							<li><a href="/jobs/">Careers @ BLS</a></li>
+							<li><a href="https://www.dol.gov/dol/findit.htm">Find It! DOL</a></li>
+							<li><a href="https://subscriptions.bls.gov/accounts/USDOLBLS/subscriber/new">Join our Mailing Lists</a></li>
+							<li><a href="/bls/linksite.htm">Linking &amp; Copyright Info</a></li>
+						</ul>
+                       				<ul style="border-right: none;"><li><h4>resources</h4></li>
+                   				   	<li><a href="https://www.oig.dol.gov/">Inspector General (OIG)</a></li>
+							<li><a href="/bls/bls_budget_and_performance.htm">Budget and Performance</a></li>
+                      					<li><a href="/bls/no_fear_act.htm">No Fear Act</a></li>
+                      					<li><a href="https://www.usa.gov/">USA.gov</a></li>
+                    				        <li><a href="https://www.benefits.gov/">Benefits.gov </a></li>
+
+						</ul>
+				</div>
+				<div class="clearfloat"></div>
+			</div>
+
+
+
+<!-- QUICK LINKS END -->
+
+<!-- WRAPPER BOTTOM BEGIN -->
+	
+		</div><!-- close id="wrapper-outer" -->
+	</div><!-- close id="wrapper" -->
+</div><!-- close id="container" -->
+<!-- WRAPPER BOTTOM END -->
+
+<!-- FOOTER LEFT BEGIN -->
+<div id="footer-wrapper">
+	<div id="footer-links-wrapper">
+		<div id="footer-links">
+			<p><a href="/bls/blsfoia.htm">Freedom of Information Act</a> &nbsp;|&nbsp; <a href="/bls/pss.htm">Privacy &amp; Security Statement</a> &nbsp;|&nbsp; <a href="/bls/disclaimer.htm">Disclaimers</a> &nbsp;|&nbsp; 
+			<a href="/bls/customer_survey.htm">Customer Survey</a> &nbsp;|&nbsp; <a href="/bls/website-policies.htm">Important Web Site Notices</a></p>
+		</div>
+	</div>
+	<div id="footer-info-wrapper">
+		<div id="footer-info"><p>
+
+<!-- FOOTER LEFT END -->
+
+<span id="footer-address">U.S. Bureau of Labor Statistics  |  OEUS/DASLT, PSB Suite 4860, 2 Massachusetts Avenue, NE Washington, DC 20212-0001</span> 
+
+
+<!-- FOOTER CENTER BEGIN -->
+		</p><p>
+
+
+<!-- FOOTER CENTER END -->
+
+<span id="footer-contact"><a href="/cew/home.htm">www.bls.gov/CEW</a> | Telephone: 1-202-691-6567 | <a href="https://data.bls.gov/cgi-bin/forms/cew?/cew/datatoc.htm">Contact QCEW</a></span>	
+
+<!-- FOOTER RIGHT BEGIN -->
+			</p>
+		</div>
+	</div>
+</div>
+
+<!-- FOOTER RIGHT END -->
+<!--no_index_end-->
+
+<!-- ***************************************************************************************************** -->
+  </body>
+</html>
