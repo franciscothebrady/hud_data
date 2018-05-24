@@ -14,8 +14,8 @@ library(tidyverse)
 # save the url (this may change)
 bls_csv_url <- "https://www.bls.gov/cew/datatoc.htm"
 
-# need to download page because of frb firewall
-dl_loc <- file.path("/place/you/want/to/download/files")
+# if you need to download page because of firewall, save your path to dl_loc
+# dl_loc <- file.path("/place/you/want/to/download/files")
 #### WARNING: these are big files and they take a while to download
 download.file(bls_csv_url, file.path(basename(bls_csv_url)))
 # read in page
@@ -30,6 +30,7 @@ bls_list <- bls_csv_page %>%
 #keep2 <- grepl(pattern = "qtrly_naics10_totals", x = bls_list)
 keep3 <- grepl(pattern = "2017", x = bls_list)
 bls_list <- bls_list[keep3]
+system("rm datatoc.htm")
 
 
 #### download the files we want ####
@@ -76,7 +77,8 @@ clean_new_bls_wages <- function(file){
 }   
 # to remove large files already read into the environment
 system("rm *.zip")
-system("rmdir --help")
+# system2(command = "rmdir -r") # doesnt work for some reason
+
 #### lapply cleaning function files ####
 
 
