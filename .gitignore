@@ -1,5 +1,8 @@
+controlled_data/
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 .zip
+.dbf
+.gz
